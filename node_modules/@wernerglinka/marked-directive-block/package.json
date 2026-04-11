@@ -1,0 +1,33 @@
+{
+  "name": "@wernerglinka/marked-directive-block",
+  "version": "1.0.0",
+  "description": "A marked extension for block-level directives with triple-colon fence syntax",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "marked",
+    "markdown",
+    "directive",
+    "block",
+    "extension"
+  ],
+  "author": "Werner Glinka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wernerglinka/marked-extensions",
+    "directory": "packages/directive-block"
+  },
+  "peerDependencies": {
+    "marked": ">=4.0.0"
+  },
+  "dependencies": {
+    "@wernerglinka/marked-extensions-shared": "^1.0.0"
+  }
+}
