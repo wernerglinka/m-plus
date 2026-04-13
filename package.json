@@ -56,10 +56,16 @@
     "test": "node --test test/*.test.js",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
-    "check": "biome check --write ."
+    "check": "biome check --write .",
+    "release:check": "release-it --dry-run",
+    "release:patch": "./scripts/release.sh patch --ci",
+    "release:minor": "./scripts/release.sh minor --ci",
+    "release:major": "./scripts/release.sh major --ci"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.11"
+    "@biomejs/biome": "^2.4.11",
+    "auto-changelog": "^2.5.0",
+    "release-it": "^19.2.4"
   },
   "engines": {
     "node": ">=22.0.0"
