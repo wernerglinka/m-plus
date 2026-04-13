@@ -1,6 +1,6 @@
 {
   "name": "m-plus",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Metalsmith build wrapper — packages Metalsmith and all plugins into a single dependency",
   "type": "module",
   "main": "index.js",
