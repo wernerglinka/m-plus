@@ -36,7 +36,7 @@
     "cssnano": "^7.1.5",
     "jstransformer-nunjucks": "^1.2.0",
     "marked": "^18.0.0",
-    "metalsmith": "2.7.0",
+    "metalsmith": "2.6.3",
     "metalsmith-bundled-components": "^0.9.1",
     "metalsmith-menu-plus": "^0.3.0",
     "metalsmith-multilingual": "github:wernerglinka/metalsmith-multilingual",
